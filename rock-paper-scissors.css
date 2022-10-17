@@ -1,0 +1,39 @@
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pick {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    ;
+}
+
+
+
+
+
+
+/* .firstPick, .secondPick, .thirdPick {
+    display: flex;
+    font-size: 30px;
+    background-color:grey;
+    justify-content: center;
+    width: 140px;
+    border-radius: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+

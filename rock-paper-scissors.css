@@ -1,39 +1,63 @@
-
+* {
+    background-color: rgb(195, 190, 190);
+    margin: 0px;
+}
 #title {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-color: rgb(12, 171, 219);
+    font-family: cursive; 
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
 }
-.body {
+.playerVsCpu {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 130px;
+    margin-bottom: 50px;
+}
+.pt {
+    font-family: cursive;
+    font-size: 35px;
+    
+}
+.play {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    
 }
 .pick {
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(195, 190, 190);
     width: 150px;
     height: 150px;
-    ;
+    
 }
-
-
-
-
-
-
-/* .firstPick, .secondPick, .thirdPick {
+.pScore, .CpScore {
     display: flex;
-    font-size: 30px;
-    background-color:grey;
     justify-content: center;
-    width: 140px;
-    border-radius: 80px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-} */
+    font-size: 50px;
+    margin-top: 20px;
+}
+.result {
+    display: flex;
+    justify-content: center;
+    font-family: cursive ;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.final-container {
+    display: flex; 
+    justify-content: center;
+    margin-top: 70px;
+}   
+.final {
+    font-size: 80px;
+    background-color: rgb(12, 171, 219);
+}
 
